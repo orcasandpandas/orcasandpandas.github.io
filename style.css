@@ -1,0 +1,168 @@
+body {
+  position: relative;
+}
+
+.scroll-top .navbar {
+  background-color: transparent !important;
+}
+
+.navbar {
+  background: linear-gradient(#631210, #8b1514);
+}
+
+.navbar-brand,
+.navbar-toggler,
+.nav-link {
+  color: #d4af37 !important;
+}
+
+#avatar {
+  border-radius: 50%;
+  width: 30vw;
+  max-width: 200px;
+  height: auto;
+  border: 4px ridge rgba(255, 255, 41, 0.5);
+}
+
+#hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)),
+    url("https://i.imgur.com/FRO5Tkg.jpeg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 10%;
+  padding-top: 15%;
+
+  text-align: center;
+}
+
+#name {
+  background: linear-gradient(#b2990d, #ebc800);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-family: "Kaushan Script", serif;
+  text-shadow: 2px 2px 5px rgb(236, 232, 157);
+}
+
+#tagline {
+  background: linear-gradient(#c4a704, #f7d934);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "WindSong", serif;
+  font-style: bold;
+  padding-top: 5%;
+  text-shadow: 2px 2px 5px rgb(110, 110, 110);
+}
+
+section#about-me-section,
+#photos-section {
+  background-color: #ebe2d6;
+  padding: 30px 0;
+}
+
+section#skills-section,
+#contact-section {
+  padding: 30px 0;
+}
+
+section#footer-section {
+  padding: 13px;
+  background: linear-gradient(#8b1514, #631210);
+  text-align: center;
+  color: #fada5e;
+}
+
+#missionpic {
+  height: 300px;
+}
+
+#about-me-target,
+#skills-target,
+#contact-target,
+#photos-target {
+  position: relative;
+  top: -100px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.heading {
+  text-align: center;
+}
+
+.skillIcon {
+  height: 70px;
+}
+
+.skillcap {
+  margin-bottom: 20px;
+}
+
+.carousel-item img {
+  height: 80vh;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+
+.carousel-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.carousel-caption {
+  z-index: 1;
+}
+
+.btn-insta {
+  background-color: #d90994;
+  color: #fff;
+}
+
+.btn-insta:hover {
+  background-color: #940966;
+  color: #fff;
+}
+
+.btn-discord {
+  background-color: #2a1ca5;
+  color: #fff;
+}
+
+.btn-discord:hover {
+  background-color: #2f138a;
+  color: #b7b7b7;
+}
+
+.btn-phone {
+  background-color: #444444;
+  color: #aae3ff;
+}
+
+.btn-phone:hover {
+  background-color: #202020;
+  color: rgb(212, 229, 255);
+}
+
+.btn-mail {
+  background-color: #c64141;
+  color: #848484;
+}
+
+.btn-mail:hover {
+  background-color: #800202;
+  color: #737373;
+}
+
+figcaption {
+  margin-bottom: 20px;
+}
